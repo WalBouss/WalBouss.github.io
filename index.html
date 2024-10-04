@@ -1,6 +1,26 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
+    <style>
+    /* code.language-bash {
+      background-color: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 2px 5px;
+      font-family: monospace;
+    } */
+    code.language-bash {
+      background-color: #282c34;
+      color: #ffffff;
+      border: 1px solid #3e4451;
+      border-radius: 4px;
+      padding: 4px 8px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.9em;
+      display: inline-block;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
       <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QG8W74H2DV"></script>
 <script>
@@ -18,11 +38,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <style>
+      body {
+        font-family: 'Roboto', Arial, sans-serif;
+        line-height: 1.6;
+      }
+      h1, h2, .name {
+        font-family: 'Montserrat', sans-serif;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
     
   </head>
 
 
-  <body>
+  <body style="background-color: #f9f9f9;">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
@@ -50,7 +85,9 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/Walid_Bousselham_profile_picture.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/Walid_Bousselham_profile_picture.jpg" class="hoverZoomLink"></a>
+                <a href="images/Walid_Bousselham_profile_picture.jpg">
+                  <img class="profile-pic" style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/Walid_Bousselham_profile_picture.jpg" class="hoverZoomLink">
+                </a>
               </td>
             </tr>
           </tbody></table>
@@ -59,27 +96,63 @@
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>News</h2>
+                <h2>🔥 News</h2>
+                <div class="news-item">
+                  <p><strong> 05.2024 </strong>&ensp; I spend the summer 2024 at MiT CSAIL as a visiting scholar working with <a href="http://hendrik.strobelt.com/">Hendrik Strobelt</a> and  <a href="http://angieboggust.com/">Angie Boggust</a>. </p>
+                <!-- </div> -->
+                <!-- <div class="news-item"> -->
                   <p><strong> 05.2024 </strong>&ensp; I gave a talk at "<a href="https://cohere.com/events/c4ai-Walid-Bousselham-2024">Cohere For AI - Community Talks</a>" regarding our latest work <a href="http://walidbousselham.com/LeGrad/">"LeGrad"</a> in collaboration with MiT & IBM Research. </p>
                   <p><strong> 03.2024 </strong>&ensp; Our paper <a href="https://arxiv.org/abs/2312.00878">Grounding Everything: Emerging Localization Properties in Vision-Language Transformers</a> was accepted at <strong>CVPR 2024!</strong></a>. </p>
                   <p><strong> 01.2024 </strong>&ensp; I gave an interview to the <strong>Computer Vision News magazine</strong>, that features our recent paper <a href="https://github.com/WalBouss/GEM">"Grounding Everything"</a>. <strong>[<a href="https://www.rsipvision.com/ComputerVisionNews-2024January/6/">Link to the interview</a>] </strong> </p>
-                <p><strong> 01.2024 </strong>&ensp; I will be attending the <a href="https://www.bmva.org/meetings/24-01-17-Vision%20and%20Language.html">BMVA Symposium on Vision and Language</a> with an oral and a poster presenting our recent paper <a href="https://github.com/WalBouss/GEM">Grounding Everything</a>. </p>
-              </td>
-            </tr>
+                  <p><strong> 01.2024 </strong>&ensp; I will be attending the <a href="https://www.bmva.org/meetings/24-01-17-Vision%20and%20Language.html">BMVA Symposium on Vision and Language</a> with an oral and a poster presenting our recent paper <a href="https://github.com/WalBouss/GEM">Grounding Everything</a>. </p>
+                </div>
+                </td>
+              </tr>
           </tbody></table>
-          <table style="width:140%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-<!--              <tbody>-->
 
+          <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Featured Research</h2>
+                <h2>🔬 Featured Research</h2>
 
               </td>
             </tr>
           </tbody></table>
           <table style="width:140%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+          <!-- MaskInversion Paper         -->
+<tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle"> <img src='images/maskinversion_main_figure.jpg' width="260"></td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://walidbousselham.com/MaskInversion">
+      <span class="papertitle">MaskInversion: Localized Embeddings via Optimization of Explainability Maps
+</span>
+    </a>
+    <br>
+	 <strong>Walid Bousselham</strong>,
+      <a href="https://scholar.google.com/citations?user=8tewdk4AAAAJ&hl">Sofian Chaybouti</a>
+      <a href="https://chrirupp.github.io/"> Christian Rupprecht</a>,
+      <a href="https://sites.google.com/view/vittoferrari">Vittorio Ferrari</a>,
+	 <a href="https://hildekuehne.github.io/"> Hilde Kuehne</a>
+    <br>
+	<em>arXiv</em>, 2024
+    <br>
+      <a href="https://walidbousselham.com/MaskInversion">Project Page</a>
+      /
+    <a href="https://github.com/WalBouss/MaskInversion">Code</a>
+      /
+      <a href="https://arxiv.org/abs/2407.20034">arXiv</a>
+<!--        /-->
+<!--        <a href="https://huggingface.co/spaces/WalidBouss/MaskInversion">Demo</a>-->
+    </br>
+      </br>
+  </td>
+</tr>
+          <!-- MaskInversion Paper: End         -->
+
 
                     <!-- LeGrad Paper         -->
 <tr onmouseout="difsurvey_stop()" onmouseover="difsurvey_start()">
@@ -196,6 +269,82 @@
       </td>
     </td>
 </tr>
+
+</tbody></table>
+
+          <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
+
+<!--    Open-source libraries-->
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+    <td style="padding:20px;width:100%;vertical-align:middle">
+      <h2>🛠️ Open-source Libraries</h2>
+    </td>
+  </tr>
+</tbody></table>
+<table style="width:140%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+<!-- MaskInversion Library -->
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle"> <img src='images/maskinversion_library_figure.jpg' width="260"></td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://github.com/WalBouss/MaskInversion">
+      <span class="papertitle">MaskInversion</span>
+    </a>
+    <br>
+    A library for generating localized embeddings of CLIP-like models via optimization of explainability maps.
+    <br><br>
+    <code class="language-bash">pip install maskinversion_torch</code>
+    <br><br>
+    <a href="https://github.com/WalBouss/MaskInversion">GitHub</a>
+    /
+    <a href="https://pypi.org/project/maskinversion_torch">PyPI</a>
+  </td>
+</tr>
+
+<!-- LeGrad Library -->
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+      <img src='images/LeGrad_logo.jpg' width="180" style="max-width: 100%; height: auto;">
+    </div>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://github.com/WalBouss/LeGrad">
+      <span class="papertitle">LeGrad</span>
+    </a>
+    <br>
+    An explainability method for Vision Transformers that, given a text prompt, generates a heatmap localizing the part of the image that is important for the model to recognize the text prompt.
+    <br><br>
+    <code class="language-bash">pip install legrad_torch</code>
+    <br><br>
+    <a href="https://github.com/WalBouss/LeGrad">GitHub</a>
+    /
+    <a href="https://pypi.org/project/legrad_torch">PyPI</a>
+  </td>
+</tr>
+
+<!-- GEM Library -->
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle"> <img src='images/GEM_logo.jpeg' width="260"></td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://github.com/WalBouss/GEM">
+      <span class="papertitle">GEM (Grounding Everything Method)</span>
+    </a>
+    <br>
+    A library for exploring emerging localization properties in Vision-Language Transformers.
+    <br><br>
+    <code class="language-bash">pip install gem_torch</code>
+    <br><br>
+    <a href="https://github.com/WalBouss/GEM">GitHub</a>
+    /
+    <a href="https://pypi.org/project/gem_torch">PyPI</a>
+  </td>
+</tr>
+
+</tbody></table>
+<!--    End:Open-source libraries-->
+
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
@@ -210,5 +359,59 @@
         </td>
       </tr>
     </table>
+    <style>
+      a {
+        transition: color 0.3s ease;
+      }
+      a:hover {
+        color: #5bd889;
+      }
+    </style>
+    <style>
+      /* News items */
+      .news-item:nth-child(even) {
+        background-color: #f0f0f0;
+      }
+      .news-item {
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      /* Featured research */
+      .research-item {
+        display: flex;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .research-image {
+        flex: 0 0 260px;
+      }
+      .research-content {
+        flex: 1;
+        padding: 20px;
+      }
+
+      /* Profile picture */
+      .profile-pic {
+        transition: transform 0.3s ease;
+      }
+      .profile-pic:hover {
+        transform: scale(1.05);
+      }
+
+      /* Responsive design */
+      @media (max-width: 768px) {
+        .research-item {
+          flex-direction: column;
+        }
+        .research-image {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
   </body>
 </html>
